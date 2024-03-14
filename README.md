@@ -7,5 +7,4 @@ Kode program merupakan contoh implementasi sederhana dari sistem pembelian tiket
 * Kelas 'User' : Merepresentasikan seorang pengguna yang memesan tiket. Atribut kelas ini adalah id, name, dan list order user.
 * Kelas Order : Merepresentasikan sebuah pesanan yang dibuat oleh pengguna untuk membeli tiket. Atribut dari kelas ini adalah id, username, emailAdress, list ticket, dan totalAmount.
 ## Asyncronus
-* Fungsi getAvailableEvents() merupakan sebuah fungsi asinkron yang mensimulasikan pemanggilan ke server atau basis data untuk mendapatkan daftar event yang tersedia. Mengembalika daftar event yang tersedia dalam bentuk future
-
+* Fungsi getAvailableEvents() merupakan sebuah fungsi asinkron yang mensimulasikan pemanggilan ke server atau basis data untuk mendapatkan daftar event yang tersedia. Fungsi ini menunda eksekusi selama 2 detik dengan menggunakan 'await Duture.delayed(Duration(seconds: 2))' untuk mensimulasikan operasi asinkron.
